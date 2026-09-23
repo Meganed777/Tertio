@@ -1,0 +1,7 @@
+jupyter
+nbformat
+nbconvert
+nbstripout
+numpy
+matplotlib
+plotly
