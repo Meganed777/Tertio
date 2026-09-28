@@ -5,3 +5,4 @@ nbstripout
 numpy
 matplotlib
 plotly
+pyyaml

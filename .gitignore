@@ -233,3 +233,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archives locales (anciennes versions _v46..._v64) : jamais envoyées sur GitHub
+_archives/

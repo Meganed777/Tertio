@@ -1,0 +1,29 @@
+# Paramètres communs à TOUTES les équipes — source unique de vérité.
+# Ne pas recopier ces valeurs dans les notebooks : les lire avec
+#   from commun.outils import charger_parametres
+# Toute modification passe par une Pull Request (l'équipe Intégration relit).
+# Convention : l'unité est dans le nom de la clé.
+
+debit_conception_m3_j: 1.26        # débit de conception (m3/jour) — repris de calcul_design.ipynb, 0.2
+temperature_eau_entree_C: 4.0      # eau la plus froide dans le sol (°C) — calcul_design.ipynb, 0.4
+
+# Qualité de l'eau brute (entrée du système). Toutes les équipes utilisent
+# EXACTEMENT ces clés pour eau_entree / eau_sortie.
+eau_brute:
+  pH: null                 # à compléter
+  MES_mg_L: null           # matières en suspension
+  DBO5_mg_L: null
+  PO4_mg_L: null           # phosphates (en P)
+  NH4_mg_L: null           # azote ammoniacal (en N)
+  NO3_mg_L: null
+  coliformes_UFC_100mL: null
+
+# Objectifs de qualité à la sortie du système
+objectifs_sortie:
+  MES_mg_L: null
+  DBO5_mg_L: null
+  PO4_mg_L: null
+  coliformes_UFC_100mL: null
+
+sources:
+  - "(à compléter : référence de la qualité d'eau brute et des normes de rejet)"
